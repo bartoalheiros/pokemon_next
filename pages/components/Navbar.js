@@ -2,7 +2,6 @@ import Link from "next/link"
 import Image from "next/image"
 
 export default function Navbar() {
-
   return (
     <nav>
       <div>
@@ -28,5 +27,5 @@ export default function Navbar() {
       </ul>
     </nav>
   )
-
+  
 }

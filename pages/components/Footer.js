@@ -1,7 +1,9 @@
 export default function Footer() {
-  <footer>
-    <p>
-      <span>PokeNext</span> &copy; 2024
-    </p>
-  </footer>
+  return (
+    <footer>
+      <p>
+        <span>PokeNext</span> &copy; 2024
+      </p>
+    </footer>
+  )
 }
