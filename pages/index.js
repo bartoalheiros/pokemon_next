@@ -2,7 +2,7 @@ import styles from "@/styles/Home.module.css";
 
 import Image from "next/image";
 
-import Card from "./components/Card";
+import Card from "../components/Card";
 
 export async function getStaticProps() {
 
@@ -26,7 +26,6 @@ export async function getStaticProps() {
       pokemons: ret,
     },
   }
-
 }
 
 export default function Home({ pokemons }) {
